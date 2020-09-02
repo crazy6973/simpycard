@@ -70,6 +70,9 @@ class Deck:
     def __len__(self):
         return len(self.cards)
 
+    def __getitem__(self, key):
+        return self.cards[key]
+
     def toList(self):
         """Returns a list of cards as strings"""
         l = []
