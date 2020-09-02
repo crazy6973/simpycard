@@ -8,7 +8,7 @@ requirements = []
 setup(
     name="simpycard",
     version="0.0.1",
-    author="crazy6973"
+    author="crazy6973",
     description="Package for simple playing-cards",
     long_description=readme,
     long_description_content_type="text/markdown",
